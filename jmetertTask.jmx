@@ -575,7 +575,7 @@
               <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="getSearchResult" enabled="true">
                 <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                 <stringProp name="RegexExtractor.refname">searchResult</stringProp>
-                <stringProp name="RegexExtractor.regex">&lt;a class=&quot;PartialSearchResults-item-title-link result-link&quot;\n.*\n.+?href=[&apos;&quot;]{1}(http[s]*)://(.+?)(/.*?)[&apos;&quot;]{1} data-unified=</stringProp>
+                <stringProp name="RegexExtractor.regex">&lt;a class=&quot;PartialSearchResults-item-title-link result-link&quot;\n.*\n.+?href=[&apos;&quot;]{1}(http[s]*)://(.*?)(/.*?)[&apos;&quot;]{1} data-unified=</stringProp>
                 <stringProp name="RegexExtractor.template"></stringProp>
                 <stringProp name="RegexExtractor.default"></stringProp>
                 <stringProp name="RegexExtractor.match_number">0</stringProp>
